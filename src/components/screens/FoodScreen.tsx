@@ -103,7 +103,7 @@ const FoodScreen: FC<FoodScreenProps> = ({ onBack, onComplete }) => {
 
       {/* Special Dish Section - Rajma Chawal */}
       <div className="w-full max-w-4xl px-2">
-        <h3 className="text-xl md:text-2xl font-headline text-center mb-3 md:mb-4 text-red-600">Madhukar's Special Favorite 💕</h3>
+        <h3 className="text-xl md:text-2xl font-headline text-center mb-3 md:mb-4 text-red-600"> Special</h3>
         <div className="grid grid-cols-1 gap-4 md:gap-6 mb-6 md:mb-8">
           {specialDish.map((dish) => (
             <Card
