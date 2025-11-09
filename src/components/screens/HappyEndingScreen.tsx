@@ -85,7 +85,7 @@ const HappyEndingScreen: FC<HappyEndingScreenProps> = ({ onPropose }) => {
                     <Card className="bg-white/10 backdrop-blur-sm border-white/20">
                         <CardContent className="p-6 text-center">
                             <Sparkles className="w-8 h-8 text-pink-300 mx-auto mb-4" />
-                            <h3 className="text-2xl font-headline text-white mb-4">My Beautiful Madhukar 👸</h3>
+                            <h3 className="text-2xl font-headline text-white mb-4">You</h3>
                             <div className="relative h-64 rounded-lg overflow-hidden">
                                 <img
                                     src={madhukarImage}
